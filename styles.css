@@ -1,1 +1,22 @@
 /* your code */
+table{
+	 table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+	border-radius: 25px;
+}
+thead{
+	background-color:blue;
+	color:white;
+	border-radius:5px;
+	padding:5px;
+	text-allign:center
+	
+}
+th{
+	border:none;
+}
+tbody tr:nth-child(2n-3) {
+  background-color: gray;
+	color:white;
+}
